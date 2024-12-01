@@ -1,0 +1,94 @@
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About WartaSeni</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.php" class="logo">WartaSeni</a>
+            <div class="menu" id="menu">
+                <a href="index.php"><i class="fas fa-home"></i> Home</a>
+                <a href="about.html"><i class="fas fa-info-circle"></i> About</a>
+                <a href="help_faq.html"><i class="fas fa-question-circle"></i> Help/FAQ</a>
+                <a href="signup.php"><i class="fas fa-user-plus"></i> Signup</a>
+                <a href="login.php"><i class="fas fa-sign-in-alt"></i> Login</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>About WartaSeni</h1>
+        </div>
+    </section>
+    <section class="about-content">
+        <div class="about-text">
+            <p>
+                WartaSeni is a web-based platform dedicated to connecting Malaysian artists and art enthusiasts. We
+                provide a safe and supportive space for artists to showcase their digital artworks, connect with a wider
+                audience, and receive valuable feedback. Art lovers can discover new and established Malaysian artists,
+                explore various styles, and support their favourites.
+            </p>
+        </div>
+
+        <h3>Our Mission:</h3>
+
+        <div class="about-text">
+            <ol>
+                <li><i class="fas fa-paint-brush"></i> Empowering Malaysian Digital Artists:
+                    To empower Malaysian artists by providing them with a platform to share their work, gain
+                    recognition, and connect with a global audience.</li>
+                <li><i class="fas fa-users"></i> Fostering a Thriving Digital Art Community:
+                    To foster a thriving digital art community in Malaysia by encouraging collaboration, communication,
+                    and support among artists and art lovers.</li>
+                <li><i class="fas fa-globe"></i> Promoting Malaysian Digital Art on the World Stage: To promote
+                    Malaysian digital art on a global scale, showcasing the talent and creativity of Malaysian artists
+                    to a wider audience.</li>
+            </ol>
+        </div>
+
+        <h3>Our Passion:</h3>
+
+        <div class="about-text">
+            <p>
+                We are passionate about art and believe in its power to connect people, spark creativity, and inspire.
+                We are committed to providing the best possible experience for Malaysian artists and art lovers alike,
+                constantly working to improve our platform and expand its features.
+            </p>
+        </div>
+        <h2>About The Developer</h2>
+
+        <div class="about-text developer-section">
+            <img src="includes/profile_picture.jpg" alt="developer" class="developer-pic">
+            <p>Hi there! I'm Izzah, the creator and developer behind WartaSeni. I'm passionate about art and
+                technology, and I believe in the power of digital platforms to connect artists and art lovers.</p>
+
+            <p>I created WartaSeni with the aim of providing a safe and supportive space for Malaysian artists to
+                showcase their work and connect with a wider audience. I'm constantly working to improve the platform
+                and add new features based on user feedback.</p>
+        </div>
+
+        <p>Thank you for being a part of our WartaSeni community!</p>
+    </section>
+    <footer>
+        <p>WartaSeni by Nur Izzah Maimunah binti Mohammad Izzidin</p>
+    </footer>
+
+    <script>
+        document.getElementById('hamburger').addEventListener('click', function () {
+            document.getElementById('menu').classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>

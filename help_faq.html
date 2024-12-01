@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WartaSeni - Help/FAQ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.php" class="logo">WartaSeni</a>
+            <div class="menu" id="menu">
+                <a href="index.php"><i class="fas fa-home"></i> Home</a>
+                <a href="about.html"><i class="fas fa-info-circle"></i> About</a>
+                <a href="help_faq.html"><i class="fas fa-question-circle"></i> Help/FAQ</a>
+                <a href="signup.php"><i class="fas fa-user-plus"></i> Signup</a>
+                <a href="login.php"><i class="fas fa-sign-in-alt"></i> Login</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    <div class="faq-body">
+        <div class="faq-container">
+            <h1 class="faq-title">Help & Frequently Asked Questions</h1>
+            <div class="faq-section">
+                <h2 class="faq-question"><i class="fas fa-upload"></i> How to upload artwork?</h2>
+                <p class="faq-answer">To upload artwork, go to the Upload page and follow the instructions provided.</p>
+
+                <h2 class="faq-question"><i class="fas fa-user-edit"></i> How to edit my profile?</h2>
+                <p class="faq-answer">You can edit your profile by clicking the "Edit Profile" button.</p>
+
+                <h2 class="faq-question"><i class="fas fa-comments"></i> How to leave a comment on an artwork?</h2>
+                <p class="faq-answer">To leave a comment on an artwork, go to the artwork's page and use the
+                    comment section below the artwork.</p>
+
+                <h2 class="faq-question"><i class="fas fa-share"></i> How to share an artwork?</h2>
+                <p class="faq-answer">You can share an artwork by clicking the share icon on the artwork's page and
+                    selecting the platform you want to share it on.</p>
+
+                <h2 class="faq-question"><i class="fas fa-lock"></i> How to change my password?</h2>
+                <p class="faq-answer">To change your password, go to your profile and click the "Edit Profile" button.
+                </p>
+
+                <h2 class="faq-question"><i class="fas fa-trash-alt"></i> How to delete my account?</h2>
+                <p class="faq-answer">To delete your account, go to the account settings and select the "Delete Account"
+                    option. Follow the on-screen instructions to confirm the deletion.</p>
+
+                <h2 class="faq-question"><i class="fas fa-envelope"></i> How to contact support?</h2>
+                <p class="faq-answer">If you need further assistance, you can contact our support team via the "<a
+                        href="contact_us.php" class="faq-link">Contact
+                        Us</a>" page. *For registered users only.</p>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        document.getElementById('hamburger').addEventListener('click', function () {
+            document.getElementById('menu').classList.toggle('active');
+        });
+    </script>
+</body>
+<footer>
+    <p>WartaSeni by Nur Izzah Maimunah binti Mohammad Izzidin</p>
+</footer>
+
+</html>
